@@ -1,0 +1,57 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.bod {
+    background: url(./hoka-zinal-13085-1643565794.jpg);
+    height: 100vh;
+    background-size: cover;
+    overflow: hidden;
+
+}
+.box{
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+.nav span{
+    color: white;
+    font-size: 20px;
+    margin: 0 10px 0 10px;
+}
+.ss{
+    margin-left: 25px;
+}
+.ss span{
+    color: rgb(243, 155, 87);
+    font-size: 35px;    
+    font-family: "Stylish", serif;
+    font-weight: 600;
+    font-style: normal;
+}
+.side{
+    font-size: 30px;
+    background-color: rgba(226, 139, 139, 0.343);
+    width: 550px;
+    /* text-align: center; */
+    font-weight: bold;
+    margin-left: 50px;
+    margin-top: 25px;
+    border-radius: 90px;
+    padding: 25px;
+}
+.btn{
+    border: 2px solid black;
+    margin: 0 10px;
+    background-color: rgb(248, 198, 137);
+    box-shadow: 0 2px 4px rgba(255,255,255,0.308);
+    border-radius: 20px;
+    padding: 8px 20px;
+    font-size: large;
+    font-weight: bolder;
+    margin-top: 30px;
+    
+}

@@ -1,0 +1,104 @@
+/* Reset some default browser styles */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333333;
+    line-height: 1.6;
+}
+.bg{
+    background: url(./background.jpg);
+    background-size: cover;
+}
+
+header {
+    background: url('header-bg.jpg') no-repeat center center/cover;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.header-content {
+    background-color: rgba(0, 0, 0, 0.667);
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+main {
+    max-width: 800px;
+    margin:    20px     auto;
+    margin-bottom: 0;
+    padding: 20px;
+    background: rgba(179, 168, 168, 0.733);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+main section {
+    margin-bottom: 20px;
+}
+
+main h2 {
+    margin-bottom: 10px;
+    color: #0b5400;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+main p, main ul {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.values ul {
+    padding-left: 20px;
+}
+
+.values ul li {
+    margin-bottom: 5px;
+}
+
+.honor {
+    text-align: center;
+}
+
+.honor-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+
+}
+
+.honor-gallery img {
+    width: 30%;
+    height: auto;
+    border-radius: 10px;
+    border: 5px solid black;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #d4a71f;
+    color: white;
+    font-weight: bold;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
